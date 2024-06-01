@@ -97,6 +97,7 @@ namespace ImGuiNET.Unity
             // upload data into mesh
             int vtxOf = 0;
             int idxOf = 0;
+            descriptors.Clear();
             
             for (int n = 0, nMax = drawData.CmdListsCount; n < nMax; ++n)
             {
